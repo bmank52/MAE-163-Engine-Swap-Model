@@ -109,3 +109,7 @@ legend('CD-300 (Diesel)', 'CD-300 (Jet A)', 'IO-550 (Avgas 100LL)', 'Location', 
 grid on;
 ylim([0 max([cd300Cost_Diesel, cd300Cost_JetA, io550Cost])]);
 set(gca, 'FontSize', 14);
+legend('CD-300 (Diesel)', 'CD-300 (Jet A)', 'IO-550 (Avgas 100LL)', 'Location', 'northwest','FontSize', 14);
+grid on;
+ylim([0 max([cd300Cost_Diesel, cd300Cost_JetA, io550Cost])]);
+set(gca, 'FontSize', 14);
